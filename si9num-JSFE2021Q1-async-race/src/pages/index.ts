@@ -1,0 +1,28 @@
+import "./style.css";
+import "./rout";
+import { createCars } from "./actionsWithCars/createCars";
+import deleteCars from "./actionsWithCars/deleteCars";
+import { selectCars } from "./actionsWithCars/selectCars";
+import updateCars from "./actionsWithCars/updateCars";
+import { generateCars } from "./actionsWithCars/generateCars(100)";
+import { nextBtn, prevBtn } from "./actionsWithCars/pagination";
+import containCars from "./actionsWithCars/restoreCars";
+import runCars from "./actionsWithCars/startBtn";
+import returnCars from "./actionsWithCars/returnBtn";
+import race from "./actionsWithCars/race";
+import resetRace from "./actionsWithCars/resetRace";
+import garageBtn from "./headerBtn/garageBtn";
+
+createCars();
+deleteCars();
+selectCars();
+updateCars();
+generateCars();
+nextBtn();
+prevBtn();
+containCars();
+runCars();
+returnCars();
+race();
+resetRace();
+garageBtn();
